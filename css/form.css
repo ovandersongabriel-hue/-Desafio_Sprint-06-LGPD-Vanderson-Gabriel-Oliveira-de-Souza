@@ -48,6 +48,12 @@ button {
     margin-right: 8px;
     float: right;
     cursor: pointer;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.10);
 }
 
 .titulo {
@@ -68,4 +74,4 @@ button {
     color: black;
     border: 1px solid black;
     cursor: auto;
-} 
+}
